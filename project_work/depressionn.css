@@ -1,0 +1,256 @@
+/* nav start */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+}
+nav {
+  .manuLogo{
+      width: 65px;
+      padding: 5px;
+  }
+  height: 60px;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .links-container {
+      color: white;
+      list-style: none;
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+  
+      .link {
+          padding: 1rem;
+          font-size: 1rem;
+          display: flex;
+          cursor: pointer;
+  
+          &:hover {
+              background-color: #1b1b1b;
+          }
+      }
+          .lnk {
+              text-decoration: none;
+              color: inherit;
+          }
+          .menuButton {
+              background-color: #1975ff;
+              color: white;
+              height: 30px;
+              width: 75px;
+              border: none;
+              border-radius: 5px;
+              margin-left: 5px;
+              margin-right: 10px;
+             
+              &:hover {
+                  background-color: white;
+                  color: black;
+              }
+          }
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1b1b;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  #hrln {
+      width: 100%;
+  }
+  .lst-wt {
+      color: white;
+      list-style: none;
+  }
+
+  .lowerUT {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .lst-wt > input {
+          background-color: #272727;
+          color: white;
+          border: 1px solid white;
+          border-radius: 7px;
+          height: 20px;
+      }
+  }
+  .lowerFT p {
+      color: white;
+      padding: 0px 0px 0px 10px;
+  }
+
+  .lowerFT {
+      display: flex;
+      justify-content: space-between;
+  }
+  .flyfoot {
+      display: flex;
+      padding: 0px 10px 0px 0px;
+
+      .flysps {
+          padding: 0px 5px 0px 5px;
+      }
+  }
+
+}
+
+/*nav end*/
+
+/*main section*/
+body{
+  background-color:whitesmoke;
+}
+#intro{
+  height:190px;
+  width:800px;
+  padding: 15px 15px 15px 15px;
+  margin: 30px 30px 30px 200px;
+  background-color:#1975ff;
+  color:whitesmoke;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 18px;
+}
+#para1{
+  display:flex;
+}
+#para1 img{
+  margin: 10px 10px 10px 1px;
+}
+
+#i2 img{
+  height: 750px;
+  width:1500px;
+  border-radius: 15px;
+  margin-left: 5px;
+  
+}
+#i3 p{
+  height:100px;
+  width:1000px;
+  margin-left: 20px;
+  font-size: 18px;
+  color:#1b1b1b;
+}
+#i4{
+  display: flex;
+  height:300px;
+}
+#i4 h3{
+            margin-left: 15px;
+}
+#i4 p{
+  height:200px;
+  width:1000px;
+  margin-left: 30px;
+  font-size: 18px;
+  color:#1b1b1b;
+  
+}
+#i4 img{
+ border-radius: 15px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+#i5{
+  display: flex;
+  height:300px;
+}
+#i5 h3{
+  margin-left: 15px;
+}
+#i5 p{
+  height:300px;
+  width:1000px;
+  margin-left: 30px;
+  font-size: 18px;
+  color:#1b1b1b;
+}
+#i5 img{
+  border-radius: 15px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+#i6{
+  display: flex;
+  height:300px;
+}
+#i6 h3{
+  margin-left: 15px;
+}
+#i6 p{
+  height:300px;
+  width:1000px;
+  margin-left: 20px;
+  font-size: 18px;
+  color:#1b1b1b;
+}
+#i6 img{
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+#i7{
+  display: flex;
+  height:300px;
+}
+#i7 h3{
+  margin-left: 15px;
+}
+#i7 p{
+  height:300px;
+  width:1000px;
+  margin-left: 20px;
+  font-size: 18px;
+  color:#1b1b1b;
+}
+#i7 img{
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#i8{
+  display: flex;
+  height:300px;
+}
+#i8 h3{
+  margin-left: 15px;
+}
+#i8 p{
+  height:300px;
+  width:1000px;
+  margin-left: 20px;
+  font-size: 18px;
+  color:#1b1b1b;
+}
+#i8 img{
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* main section ends*/
+/*footer section*/
+/*#foot{
+  background-color: black;
+  color:#2583fe;
+  height:100px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+#foot p{
+   margin-left: 700px;
+}                 */
